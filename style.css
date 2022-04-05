@@ -1,0 +1,26 @@
+.header{
+    display:grid;
+    grid-template-columns: 2fr 3fr 3fr;
+
+    border-bottom: 10px solid black;
+}
+
+.nav-link{
+    display:flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.about-me{
+    border: 2px dashed black;
+    flex:1;
+}
+.showcase{
+    border: 2px dashed black;
+    flex:2;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
